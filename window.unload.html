@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Chapter 8: Example 5</title>
+<script>
+    var unloadEvent = function (e) {
+        var confirmationMessage = "Warning: Leaving this page will result in any unsaved data being lost. Are you sure you wish to continue?";
+
+        (e || window.event).returnValue = confirmationMessage; //Gecko + IE
+        return confirmationMessage; //Webkit, Safari, Chrome etc.
+    };
+    window.addEventListener("beforeunload", unloadEvent);
+</script>
+</head>
+<body>
+<form name="form1" action="">
+<input type="button" value="Open newWindow" name="btnOpenWin"
+onclick="btnOpenWin_onclick()" />
+<p>
+newWindow’s Text:<br />
+<input type="text" name="text1" />
+<input type="button" value="Get Text" name="btnGetText"
+onclick="btnGetText_onclick()" />
+</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+	var age = parseInt(prompt('Enter ur age', ''));
+	if( isNaN(age) ){
+		alert('Your have inserted wrong data');
+	}
+	else if(age > 60){
+		alert("Your are near about to die");
+	}
+	else if( (age > 50 && age < 60) || (age > 9 && age < 18) ) {
+		alert('You seems a very strong person');
+	}
+	else if(age < 50 && age > 18 ) {
+		alert('You are not eligible for being a president');
+	}
+	else {
+		alert('Your are minor, wait for being 18');
+	}
+
+</script>
+	
+</body>
+</html>

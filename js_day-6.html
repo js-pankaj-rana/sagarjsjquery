@@ -1,0 +1,39 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+	
+	</script>
+
+
+</head>
+<body>
+	<form>
+		<p>Name<br/> <input id="name" type="text" data-required="required" onblur="isInputData(this)" /></p>
+		<p>Pass <br/> <input  id="pass" type="text" data-required="required" onblur="isInputData(this)"/></p>
+		<button type="submit" disabled="disabled" id="btn">Click me</button>
+	</form>
+	
+	<script>
+		//DRY = Don't Repeat Yourself;
+		
+		/*var name = document.getElementById('name');
+		var pass = document.getElementById('pass');
+		var btn = document.getElementById('btn');*/
+
+		function isInputData(elem){
+			var elemVal = elem.value;
+			if(elemVal != '' &&  elemVal != undefined ){
+				return elemVal;
+			}
+			else {
+				alert('Please fill the data');	
+			}
+		}
+
+
+
+	</script>
+</body>
+</html>

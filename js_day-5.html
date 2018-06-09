@@ -1,0 +1,38 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	   <ul id="myUl">
+			<li><a href="javascript:void(0)" class="anchorlist-item">anchorlist-item 1</a></li>
+			<li><a href="javascript:void(0)" class="anchorlist-item">anchorlist-item 2</a></li>
+			<li><a href="javascript:void(0)" class="anchorlist-item">anchorlist-item 3</a></li>
+			<li><a href="javascript:void(0)" class="anchorlist-item">anchorlist-item 4</a></li>
+		</ul>
+
+<button onclick="colorChange()">click me</button>
+
+	<script type="text/javascript">
+
+		/*var ul = document.getElementById('myUl');
+		var anchors = document.getElementsByClassName('anchorlist-item');*/
+
+		function colorChange(){
+			document.getElementsByClassName('anchorlist-item')[0].style.color = 'red';
+
+
+
+
+		}
+
+		var ulhtml = ul.innerHTML;
+		console.log(ulhtml);
+
+
+
+
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<script>
+		 var body = document.getElementsByTagName('body')[0],
+		 	elementId = document.getElementById('navbar');
+		window.addEventListener('scroll', function(){
+			var scrVal = body.scrollTop;
+			if(scrVal > 100){
+				elementId.style.display = 'block';
+				elementId.style.opacity = '1';
+			}
+
+			else{
+					
+				elementId.style.display = 'none';
+				elementId.style.opacity = '0';
+			}
+		})
+	</script>

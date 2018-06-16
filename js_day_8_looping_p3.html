@@ -1,0 +1,25 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<ol id="nameList">
+		
+	</ol>
+
+	<script>
+		var listofNames = ['Sunil', 'Rajendra', 'Pankaj', 'Sagar'];
+		var htmlArr = [];
+		var i;
+		for(i of listofNames){
+			htmlArr.push('<li>'+i+'</li>');
+			
+		}	
+		
+		document.getElementById('nameList').innerHTML = htmlArr.join('');
+		
+
+	</script>
+</body>
+</html>

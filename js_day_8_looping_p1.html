@@ -1,0 +1,24 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<ol id="nameList">
+		
+	</ol>
+
+	<script>
+		var listofNames = ['Sunil', 'Rajendra', 'Pankaj', 'Sagar'];
+		var html = [];
+
+		listofNames.forEach( function(val,ind, arr) {
+			html.push('<li>'+val+'</li>');
+			// console.log('val==>',val, 'index==>',ind, 'arr',arr)
+		})
+			
+		document.getElementById('nameList').innerHTML = html.join('');
+
+	</script>
+</body>
+</html>

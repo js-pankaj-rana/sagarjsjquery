@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Frameset//EN'
+'http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+	<head>
+		<title>Example</title>
+		<body>
+			
+			<script type="application/javascript">
+				var myArr = [1,2,31,2,1];
+				var myNwArr = [];
+
+				for(var i = 0; i < myArr.length; i++){
+					// debugger;
+					var nwVal = myArr[i];
+
+					 if( myNwArr.indexOf(nwVal) == -1 ){
+					 	myNwArr.push(nwVal);
+					 } 
+					 // console.log(myNwArr);
+					// debugger;
+				}
+
+
+
+			</script>
+
+
+						<script type="application/javascript">
+				var myArr = [1,2,31,2,1];
+
+				function isArray(value, arrname){
+					if(arrname.indexOf(value) !== -1){
+						return true;
+					}
+					else{
+						console.log('value is not availble')
+					}
+				}
+
+
+
+			</script>
+
+
+		</body>
+</html>

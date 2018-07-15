@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body>
+<p>D Time</p>
+<script type="text/javascript">
+// input from db
+var dTime = '5:35 pm 15/07/2018';
+var aTime = '7:00 am 16/07/2018';
+debugger;
+
+
+// convert all time in milliseconds
+
+const mlScnds = (60* 60 * 1000);
+
+var valueDptTime = dTime.split(' ')[0];
+var valDptHrs = parseInt(valueDptTime.split(':')[0]) * mlScnds;
+var valDptMin = parseInt(valueDptTime.split(':')[1]) * (60 * 1000);
+var dptTtlMil = valDptHrs + valDptMin;
+
+var dptValueMeridian = dTime.split(' ')[1];
+
+if(dptValueMeridian == 'pm'){
+	var halfDay = 12* mlScnds;
+	dptTtlMil += halfDay;
+}
+
+
+var valueAptTime = aTime.split(' ')[0];
+var valAptHrs = parseInt(valueAptTime.split(':')[0]) * mlScnds;
+var valAptMin = parseInt(valueAptTime.split(':')[1]) * (60 * 1000);
+var aptTtlMil = valAptHrs + valAptMin;
+
+
+var aptValueMeridian = aTime.split(' ')[1];
+
+if(aptValueMeridian == 'pm'){
+	var halfDay = 12* mlScnds;
+	aptTtlMil += halfDay;
+}
+
+
+//this is applicable when calendar date is change diffirence between the dtime with 24 hrs
+// 24 * day - dTime + aTime
+
+var dDate = dTime.split(' ')[2];
+	dDate = dDate.split('/')[0];
+
+var aDate = aTime.split(' ')[2];
+	aDate = aDate.split('/')[0];
+
+var diffDate = aDate - dDate;
+
+var compMilDiff = 0;
+var valDayMil = diffDate * 24 * mlScnds;
+
+if(diffDate > 0){
+  compMilDiff = valDayMil - dptTtlMil +  aptTtlMil; 
+}
+else{
+	 compMilDiff = aptTtlMil - dptTtlMil;
+}
+
+var actTime =  compMilDiff / mlScnds;
+var actReminder =  compMilDiff % mlScnds;
+	actReminder = actReminder / (60 * 1000);
+
+alert(actTime, actReminder);
+
+
+// if the calender date is not change
+// aTime - dTime; 
+
+// convert milliseconds to hrs.
+
+ 
+</script>
+</body>
+</html>

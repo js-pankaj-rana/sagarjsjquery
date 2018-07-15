@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="boxId"></div>	<!-- <button>Fill the selected color</button> -->
+<input type="color" id="colorItem"/>
+
+<style type="text/css">
+	#boxId{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		border:1px solid #d6d6d6;
+	}
+</style>
+<script type="text/javascript">
+	
+	var inp = document.getElementById('colorItem');
+	var box = document.getElementById('boxId');
+
+	box.addEventListener('click', function(){
+		debugger;
+		console.log(this);
+		this.style.backgroundColor = inp.value;		
+	})
+</script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Query</title>
+</head>
+<body>
+<!-- <script>
+	var a = 10, b=15 ;
+	//corrected code;
+
+	var myArrnum = ["1", "2", "3", "4"];
+	for(var i=0, total = myArrnum.length; i < total; i++ ){
+		myArrnum[i] = myArrnum[i] += 10;	
+	}
+
+	//110, 210, 310
+	
+
+</script> -->
+<div id="container">
+  <div data-index="2">Box 2</div>
+  <div data-index="1">Box 1</div>
+  <div data-index="3">Box 3</div>
+  <div data-index="4">Box 4</div>
+  <div data-index="5">Box 5</div>
+  <div data-index="6">Box 6</div>
+</div>
+
+<!-- <script>
+	
+	var childElement = document.getElementById('container').children;
+	var childElementLength = childElement.length;
+	for(var i = 0; i < childElementLength; i++ ){
+
+		var dataIndex = childElement.item(i).dataset.index;
+
+		if( dataIndex %2 == 0 ){
+			childElement.item(i).style.color = 'Red';
+		}
+	}
+</script> -->
+
+<!-- <script>
+	var array = [100, 200, 5, 40, 100345890, 100, 1, 25, 9612, 7, 9004, 9873451209, 9], result = [], suma;
+
+for (var i = 0; i < array.length; i++) {
+
+	suma = 0;
+
+	for (var j = 0; j < i; j++) {
+  
+  	suma += array[j];
+  
+  }
+  
+  if (array[i] > suma) {
+  
+ 		result.push(array[i]);
+  
+  }
+
+}
+
+console.log(result);
+</script> -->
+<script>
+	function func1() {
+    var msg = "Exercise ",
+    	func2;
+
+    this.x = 1;
+    this.y = 1;
+
+    this.func2 = function() {
+        msg += "Has Been ";
+        var x = 2,
+            y = this.y || this.x;
+
+
+        var func3 = function() {
+            this.y++;
+            msg += "Completed";
+
+            var success = this.y > 3 && !!!this.x && typeof this.x === "object" ? "Successfully." : "Almost Successfully.";
+
+            console.log(msg, success);
+            return this.y;
+
+        };
+
+        return y > 2 ? func3 : this.x;
+
+    };
+
+    return func2;
+}
+
+	</script>
+
+
+</body>
+</html>

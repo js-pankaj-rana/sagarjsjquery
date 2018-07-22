@@ -7,9 +7,9 @@
 <p>D Time</p>
 <script type="text/javascript">
 // input from db
-var dTime = '5:35 pm 15/07/2018';
+var dTime = '5:30 pm 15/07/2018';
 var aTime = '7:00 am 16/07/2018';
-debugger;
+//debugger;
 
 
 // convert all time in milliseconds
@@ -65,10 +65,14 @@ else{
 }
 
 var actTime =  compMilDiff / mlScnds;
-var actReminder =  compMilDiff % mlScnds;
-	actReminder = actReminder / (60 * 1000);
 
-alert(actTime, actReminder);
+var actMinute = (actTime - parseInt(actTime)) * 60;
+
+
+/*var actReminder =  compMilDiff % mlScnds;
+	actReminder = actReminder / (60 * 1000);
+*/
+alert(parseInt(actTime) +':' + actMinute);
 
 
 // if the calender date is not change

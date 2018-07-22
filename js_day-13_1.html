@@ -1,0 +1,26 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+	var myString = "Hello jeremy Jeremy asf djklad sfjklasd klf aldskf Jeremy. How are you Jeremy";
+	var foundAtPosition = 0; 
+	var count = 0;
+	debugger;
+
+	while ( foundAtPosition != -1 ){
+		foundAtPosition = myString.indexOf('Jeremy', foundAtPosition);
+		
+		if(foundAtPosition != -1){
+			++foundAtPosition;
+			count++;
+		}
+	}
+
+	console.log(count);
+	
+</script>
+</body>
+</html>

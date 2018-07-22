@@ -1,0 +1,21 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1 id="fileName"></h1>
+<script type="text/javascript">
+	
+	debugger;
+	var myString = window.location.href;
+
+	var foundAtPosition = myString.lastIndexOf('/') + 1;
+
+	var filename = myString.substr(foundAtPosition, );
+
+	document.getElementById('fileName').innerHTML = filename;
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Program for testing the UpperCase</title>
+</head>
+<body>
+	<h1 id="level1"></h1>
+<script type="text/javascript">
+
+	 var userIn =  prompt('Enter User Data', 'Alphabeat accepted'),
+	 charValueAt0 =	userIn.charCodeAt(0),
+	 checkUpper = false;
+
+	 for(var i = 65; i <=90; i++ ){
+	 	debugger;
+	 	if(charValueAt0 === i){
+	 		checkUpper = true;
+	 		break;
+	 	}
+	 }
+
+	 if(checkUpper){
+	 	alert('First Letter is UpperCase');
+	 }
+
+</script>
+</body>
+</html>

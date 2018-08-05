@@ -1,0 +1,51 @@
+<html>
+<body>
+<h1 id="content"></h1>
+<button onclick="javascript:Counter.increament()">+1</button>
+<button onclick="javascript:Counter.decreament()">-1</button>
+<button onclick="javascript:Counter.reset()">Reset</button>
+
+<script type='text/javascript'>
+
+
+	var Counter = {
+		count: 0,
+		increament: function(){
+			++this.count;
+			this.setValue();
+			this.setStorage();
+		},
+		decreament: function(){
+			--this.count;
+			this.setValue();
+			this.setStorage();
+		},
+		reset: function () {
+			this.count = 0;
+			this.setValue();
+			this.setStorage();
+		},
+		setStorage: function(){
+			localStorage.setItem('count', this.count);
+		},
+		getStorage: function() {
+
+
+			var that = this;
+			window.addEventListener('load', function(){
+				console.log(this);
+				console.log(that);
+
+				that.count = localStorage.count;
+				that.setValue();	
+			})
+		},
+		setValue: function(){
+			document.getElementById('content').innerHTML = this.count;
+		}
+	}
+	Counter.getStorage();
+	Counter.setValue();
+</script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<html>
+<body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type='text/javascript'>
+	var myObj = {
+"status": "ok",
+"totalResults": 10,
+"articles": [
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Reuters",
+"title": "More than 100 large wildfires in US as new blazes erupt",
+"description": "Six large new wildfires erupted in the United States, pushing the number of major active blazes nationwide to over 100, authorities said on Saturday.",
+"url": "https://www.cnbc.com/2018/08/12/more-than-100-large-wildfires-in-us-as-new-blazes-erupt.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/08/09/105387716-1533836290065gettyimages-1008050668.1910x1000.jpeg",
+"publishedAt": "2018-08-12T04:32:13Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Leslie Josephs",
+"title": "Alaska Air employee who stole plane that crashed exposes aviation's blind spots",
+"description": "The Alaska Air employee who stole a turboprop plane from Seattle was an employee of the company for nearly four years, and shows airlines' challenge of monitoring employees as well as their mental health problems.",
+"url": "https://www.cnbc.com/2018/08/11/stolen-alaska-air-plane-exposes-aviations-blind-spots.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2016/04/18/103556435-GettyImages-457745602.1910x1000.jpg",
+"publishedAt": "2018-08-11T22:06:11Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Kevin Breuninger",
+"title": "GOP Rep. Chris Collins once touted his business ties to get elected. Now they may derail his political career",
+"description": "Collins' ties to an Australian biotechnology company have sparked investigations from government watchdogs, lodged insider trading charges against him and his 25-year-old son, gotten him arrested and, most recently, torpedoed his re-election campaign in Congr…",
+"url": "https://www.cnbc.com/2018/08/11/chris-collins-touted-business-success-before-insider-trading-charges.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/08/09/105387811-1533838925499rts1wlmw.1910x1000.jpg",
+"publishedAt": "2018-08-11T21:02:13Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Reuters",
+"title": "Saudi Arabia's massive investment fund said to be uninterested in funding Tesla's idea to go private",
+"description": "Saudi Arabia's Public Investment Fund (PIF) has shown no interest so far in financing Tesla CEO Elon Musk's proposed $72 billion deal to take the U.S. electric car maker private, despite acquiring a minority stake in the company this year, two sources familia…",
+"url": "https://www.cnbc.com/2018/08/11/saudi-arabias-fund-lacks-interest-in-teslas-idea-of-going-private.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/08/08/105384746-1533755665946gettyimages-129903762.1910x1000.jpeg",
+"publishedAt": "2018-08-11T18:45:30Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Sara Salinas",
+"title": "Hulu loses in the neighborhood of $1.5 billion a year, and Disney is set to double its stake",
+"description": "If anything, the willingness to take on double the losses is credit to Disney's ambitions in streaming.",
+"url": "https://www.cnbc.com/2018/08/10/hulu-loses-roughly-1point5b-a-year-and-disney-is-set-to-double-its-stake.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/12/13/104895959-GettyImages-814587238.1910x1000.jpg",
+"publishedAt": "2018-08-11T15:02:13Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Javier E. David",
+"title": "NY GOP Congressman Chris Collins suspends campaign amid insider trading allegations",
+"description": "Collins was arrested by federal agents Wednesday in Manhattan. Prosecutors accused him of illegal activity related to securities of Australian biotech company Innate Immunotherapeutics.",
+"url": "https://www.cnbc.com/2018/08/11/ny-gop-congressman-chris-collins-suspends-campaign.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/06/27/104554731-GettyImages-538828932-chris-collins_r.1910x1000.jpg",
+"publishedAt": "2018-08-11T14:14:18Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Javier E. David",
+"title": "Trump condemns racism on anniversary of Charlottesville alt-right march, urges national unity",
+"description": "President Donald Trump condemned \"all forms of racism and violence\" on Saturday, in an appeal for national unity on the anniversary of a nationalist march in Charlottesville.",
+"url": "https://www.cnbc.com/2018/08/11/trump-condemns-racism-on-anniversary-of-charlottesville-march.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/08/02/105371272-1533212012510gettyimages-1008603588.1910x1000.jpeg",
+"publishedAt": "2018-08-11T13:49:50Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Ari Levy",
+"title": "By leaving Coinbase's board, Facebook's David Marcus removes a potential conflict as the social network ramps up its crypto strategy",
+"description": "David Marcus, the head of Facebook's blockchain initiative, said he's leaving the Coinbase board, just as the social site ramps up its own crypto strategy.",
+"url": "https://www.cnbc.com/2018/08/11/by-leaving-coinbase-board-facebook-blockchain-head-removes-conflict.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/04/19/104412873-RTS12TYYr.1910x1000.jpg",
+"publishedAt": "2018-08-11T11:30:35Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Jacob Pramuk",
+"title": "Why Trump is attacking Turkey with sanctions and tariffs",
+"description": "Trump's moves against Turkey come at least in part in response to simmering conflicts between the two countries over military cooperation and the U.S. push for pastor Andrew Brunson's release.",
+"url": "https://www.cnbc.com/2018/08/10/why-trump-is-attacking-turkey-with-sanctions-and-tariffs.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/08/10/105389979-1533908149429gettyimages-850796886.1910x1000.jpeg",
+"publishedAt": "2018-08-10T14:08:10Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Karen Gilchrist",
+"title": "This 29-year-old digital nomad is making millions while traveling the US in his van",
+"description": "“Work is an action, not a place,” says Vibes founder Jack Mann.",
+"url": "https://www.cnbc.com/2018/08/07/digital-nomad-vibes-founder-jack-mann-runs-his-start-up-out-of-his-van.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/07/30/105361108-1532932370879vanjack.1910x1000.jpg",
+"publishedAt": "2018-08-07T01:50:22Z"
+}
+]
+}
+
+var articles = myObj.articles;
+
+console.log(articles);
+
+</script>
+</body>
+</html>

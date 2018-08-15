@@ -1,0 +1,126 @@
+{
+"status": "ok",
+"totalResults": 10,
+"articles": [
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Reuters",
+"title": "'Rudely trampling on international trade rules': Chinese media beat drum against US",
+"description": "China's state media continued a barrage of criticism of the United States on Saturday as their tit-for-tat trade war escalated, while seeking to reassure readers the Chinese economy remains in strong shape.",
+"url": "https://www.cnbc.com/2018/08/11/chinese-media-keep-up-drumbeat-of-criticism-of-us.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/10/27/104802500-RTX3I43E-xi-jinping.1910x1000.jpg",
+"publishedAt": "2018-08-11T04:40:09Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Reuters",
+"title": "Lawsuits accuse Tesla's Musk of fraud over tweets, going-private proposal",
+"description": "Tesla and Chief Executive Elon Musk were sued twice on Friday by investors who said they fraudulently engineered a scheme to squeeze short-sellers.",
+"url": "https://www.cnbc.com/2018/08/11/lawsuits-accuse-teslas-musk-of-fraud-over-going-private-proposal.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/08/08/105312310-1533762032624elon.1910x1000.jpg",
+"publishedAt": "2018-08-11T04:13:38Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Kelly Olsen",
+"title": "The US-China trade war is worrying some Hong Kong-owned manufacturers, CEO says",
+"description": "Hong Kong-owned factories in China are growing concerned about the escalating U.S.-China trade war. Some are even thinking about shifting operations elsewhere, one CEO said.",
+"url": "https://www.cnbc.com/2018/08/11/us-china-trade-war-worrying-some-hong-kong-owned-manufacturers-ceo.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2014/08/08/101905317-118605930.1910x1000.jpg",
+"publishedAt": "2018-08-11T03:54:34Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Reuters",
+"title": "Trump says progress made toward trade deal with Mexico, but 'Canada must wait'",
+"description": "\"Canada must wait. Their Tariffs and Trade Barriers are far too high. Will tax cars if we can't make a deal!\" U.S. President Donald Trump said.",
+"url": "https://www.cnbc.com/2018/08/11/trump-says-progress-made-on-trade-with-mexico-but-canada-must-wait.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/07/26/105356065-1532624878207rtx6cxl3.1910x1000.jpg",
+"publishedAt": "2018-08-11T02:51:49Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Lauren Hirsch",
+"title": "President of major Papa John's franchise organization: 'We believe it is time for the founder to move on'",
+"description": "A major Papa Johns franchisee group that represents roughly half the North American system is urging  the chain's founder, John Schnatter, to move on from the company.",
+"url": "https://www.cnbc.com/2018/08/11/president-of-major-papa-johns-franchise-organization-we-believe-it-.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/07/13/105328607-1531490454080gettyimages-996511678.1910x1000.jpeg",
+"publishedAt": "2018-08-11T02:40:13Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Patti Domm",
+"title": "Turkey fallout could continue to hit global markets, as Erdogan 'hangs tough'",
+"description": "Turkey's collapsing currency and reeling economy have fallout for other emerging markets and expose vulnerabilities at some European banks, but strategists do not now see it as a trigger for a broader banking or financial crisis.",
+"url": "https://www.cnbc.com/2018/08/10/turkey-fallout-could-continue-to-hit-global-markets-as-erdogan-hangs.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/04/12/104399920-Erdogan_banner.1910x1000.jpg",
+"publishedAt": "2018-08-10T18:24:11Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Jeff Cox",
+"title": "Workers see their paychecks get smaller as inflation continues to rise",
+"description": "While the rest of the economy pointed higher in July, American workers took a step backwards.  Hourly and weekly earnings actually declined on the month when factoring in the rise in cost of living, according to figures the Labor Department released Friday.",
+"url": "https://www.cnbc.com/2018/08/10/workers-see-their-paychecks-get-smaller-as-inflation-continues-to-rise.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/06/14/105274083-RTS1ST21.1910x1000.jpg",
+"publishedAt": "2018-08-10T15:39:23Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Jacob Pramuk",
+"title": "Why Trump is attacking Turkey with sanctions and tariffs",
+"description": "Trump's moves against Turkey come at least in part in response to simmering conflicts between the two countries over military cooperation and the U.S. push for pastor Andrew Brunson's release.",
+"url": "https://www.cnbc.com/2018/08/10/why-trump-is-attacking-turkey-with-sanctions-and-tariffs.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/08/10/105389979-1533908149429gettyimages-850796886.1910x1000.jpeg",
+"publishedAt": "2018-08-10T14:08:10Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Alexandra Gibbs",
+"title": "US futures slide as political concerns keep investors on edge",
+"description": "U.S. stock index futures fell deep into the red ahead of Friday’s open, following negative sentiment in markets overseas.",
+"url": "https://www.cnbc.com/2018/08/10/us-markets-political-concerns-keep-investors-on-edge.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/07/11/105324465-1531345422698gettyimages-591961884.1910x1000.jpg",
+"publishedAt": "2018-08-10T09:38:16Z"
+},
+{
+"source": {
+"id": "cnbc",
+"name": "CNBC"
+},
+"author": "Karen Gilchrist",
+"title": "Ask yourself this question every six months to make sure your career's on track",
+"description": "If the answer's yes, it could be time to make a change.",
+"url": "https://www.cnbc.com/2018/08/10/switching-jobs-how-to-know-if-your-careers-on-track.html",
+"urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/08/09/105385916-1533789333146gettyimages-643272330.1910x1000.jpeg",
+"publishedAt": "2018-08-10T04:25:14Z"
+}
+]
+}

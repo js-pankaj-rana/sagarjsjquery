@@ -1,0 +1,23 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- https://scotch.io/bar-talk/copying-objects-in-javascript -->
+
+	<script>
+		var obj = {
+			a: 9,
+			b: 10
+		}
+
+		var newObj = Object.assign({}, obj);
+
+		newObj.b = 20;
+
+		console.log('newObj-->'+newObj.b, 'old==>'+obj.b);
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,95 @@
+body{
+  font-size: 100%;
+  font-family: "arial", helvetica, sans-serif;
+}
+.fluid-container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+.list-unstyle{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.top-navigation {
+  background-color: #2c3e50;
+  height: 50px;
+}
+
+.navigation-item-link {
+  color: #ffffff;
+  line-height: 50px;
+  padding: 0 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.logo {
+    width: 100px;
+    height: 40px;
+    background-color: #2c3e50;
+    margin: 5px 10px;
+    color: #fff;
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+.logo {}
+
+.search {
+    width: 300px;
+    border: 1px solid #333;
+    height: 40px;
+    margin: 5px 0;
+    border-radius: 3px;
+    background-color: #333;
+    position: relative;
+}
+
+input[type="search"] {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+}
+
+.top-search-form-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    overflow: hidden;
+    text-indent: -99px;
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+    background-image: url(https://www.magicbricks.com/forum/resources/images/forumTabSprite.png);
+    background-repeat: no-repeat;
+    background-position: -152px -41px;
+        outline: none;
+}
+
+
+a.top-right-action-link {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0px;
+    padding: 0 10px;
+    font-size: small;
+}
+
+li.top-right-action:last-child .top-right-action-link {
+    padding:  0px;
+}
+
+.action-item {
+    margin-right: 15px;
+}

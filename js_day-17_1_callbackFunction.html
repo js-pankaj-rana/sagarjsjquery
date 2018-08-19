@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+<p class="red-text js-color">this is a paragraph text.</p>
+<button class="js-click-handler">Click</button>
+
+<style>
+	.red-text{
+		color: red;
+	}
+	.blue-text{
+		color:blue;
+	}	
+</style>
+<script type="text/javaScript">
+
+	 document.querySelector('.js-click-handler').addEventListener('click',  toggleClass);
+
+	
+
+	function toggleClass(){
+		var p = (document.querySelector('.js-color'));
+		p.classList.toggle("blue-text");
+	}
+
+</script>
+	
+</body>
+</html>

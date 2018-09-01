@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+
+	<ul id="stateList">
+		
+	</ul>
+	<select id="selectId">
+		
+	</select>
+<script type="text/javascript">
+var stateList = ['','Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar', 'Chhattisgarh', 'Goa', 'Gujarat']
+var options = [], lists = [];
+
+stateList.map(function(value){
+	options.push('<option value='+ value +'>'+value+'</option>');
+	if(value !== ''){
+		lists.push('<li data-option='+value+'>'+value+'</li>');
+	}
+});
+
+document.querySelector('#stateList').innerHTML =  lists.join(' ');
+document.querySelector('#selectId').innerHTML =  options.join(' ');
+
+
+
+</script>
+<body>
+<input type="input" value="state" />
+
+</body>
+</html>

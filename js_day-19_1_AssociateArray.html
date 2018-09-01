@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.Person = {
+					name: 'Sudhir',
+					age: 19,
+					address: null
+				}
+			Person.ln = 0;	
+
+			for(p in window.Person){
+				Person.ln+=1;
+			}	
+			
+			console.log(Person.ln);
+		</script>
+	</body>
+</html>

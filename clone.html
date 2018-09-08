@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul id="myList2"><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li><li>Water</li><li>Milk</li></ul>
+
+<p>Click the button to copy an item from one list to another.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p>Try changing the <em>deep</em> parameter to false, and only an empty LI element will be cloned.</p>
+
+<script>
+function myFunction() {
+    var itm = document.getElementById("myList2").lastChild;
+    var cln = itm.cloneNode(true);
+    document.getElementById("myList1").appendChild(cln);
+}
+
+var lists = document.querySelectorAll('li:nth-child(4n) ');
+lists.forEach( elem => elem.style.fontWeight = 'bold' );
+
+</script>
+
+</body>
+</html>

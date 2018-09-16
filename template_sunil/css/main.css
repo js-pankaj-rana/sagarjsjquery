@@ -1,0 +1,53 @@
+body{
+  font-family: 'Varela Round', sans-serif;
+}
+
+.font-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.para {
+  text-align: right;
+  color: white;
+  font-size:12pt;
+
+}
+.para1 {
+  text-align: center;
+  color: white;
+  font-size: 60pt;
+  font-family: "Times New Roman", Times, serif;
+}
+.para2{
+  text-align: center;
+  color: white;
+  font-size: 22pt;
+}
+.fuild-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.list-unstyle {
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+.bg-heroshot{
+  background: url('../images/mt-1377-home2-header-bg.jpg') no-repeat center center;
+  background-size: cover;
+  height: 150vh; 
+}
+.center {
+  text-align: center;
+}

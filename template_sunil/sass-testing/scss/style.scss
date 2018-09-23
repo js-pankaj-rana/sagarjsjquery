@@ -1,0 +1,14 @@
+@import '_settings.scss';
+
+$blue-dark: darken($blue, 10% );
+$blue-light: ligh­ten­($blue, 10% );
+
+body {
+	background-color: $blue-dark;
+	h1 {
+		background-color: $blue-light;
+		font-size:20px;
+		color:$white;
+		text-align:center;
+	}
+}

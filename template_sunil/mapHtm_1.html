@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <script>
+      const apiKey = 'AIzaSyA2DDEpP-PpYnRZrBuvmQolgNf9y7jbKBo'
+      // https://developers.google.com/maps/documentation/javascript/importing_data
+    </script>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map" style="height: 400px"></div>
+    <script>
+      var map;
+      function initMap() {
+        var locations = [
+        {lat: 25.231536, lng: 84.823388},
+        {lat: 25.130871, lng: 85.207741},
+        {lat: 25.049777, lng: 85.152494},
+      ]
+       var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';   
+       var uluru = {lat: 25.190535, lng: 84.983992};
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: uluru,
+          zoom: 3
+        });
+
+      var markers=[];
+        for (var i = 0; i < locations.length; i++) {
+          var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+          });
+
+          google.maps.event.addListener(marker, 'click', (function(marker, i) {
+            return function() {
+              infowindow.setContent(locations[i][0]);
+              infowindow.open(map, marker);
+            }
+          })(marker, i));
+          markers.push(marker);
+        }
+
+      var mc = new MarkerClusterer(map, markers);
+      }
+
+      // var marker = new google.maps.Marker({position: locations, label: labels[i % labels.length]});
+
+
+      
+
+      
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2DDEpP-PpYnRZrBuvmQolgNf9y7jbKBo&callback=initMap" async defer></script>
+  </body>
+</html>

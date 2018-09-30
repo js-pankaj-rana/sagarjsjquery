@@ -1,8 +1,17 @@
 @charset "UTF-8";
 body {
   background-color: #4c1e85; }
-  body h1 {
+  body .header {
     background-color: ligh­ten­(#6427af, 10%);
     font-size: 20px;
     color: white;
     text-align: center; }
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }

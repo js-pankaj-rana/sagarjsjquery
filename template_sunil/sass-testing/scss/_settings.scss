@@ -4,9 +4,32 @@ $white: white;
 $turquoise : #1abc9c; 
 $emerald: #2ecc71;
 $peter-river: #3498db;
-
+$black: #333333;
 
 $blue: #6427af;
 $green: #23bc3d;
 
 $purple: #6600cc;
+
+$font-xs: 0.8rem;
+$font-sm: 1rem;
+$font-md: 1.5rem;
+$font-lg: 2.5rem;
+
+
+//mixin
+
+@mixin large-text {
+  font: {
+    family: Arial;
+    size: $font-lg;
+    weight: bold;
+  }
+  color: $black;
+}
+
+@mixin colors($text, $background: none, $border: none) {
+  color: $text;
+  background-color: $background;
+  border-color: $border;
+}
